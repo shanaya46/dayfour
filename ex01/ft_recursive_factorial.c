@@ -2,8 +2,6 @@
 #include <stdlib.h>
 
 int ft_recursive_factorial (int nb) {
-    int factorial = 1;
-    factorial = factorial * nb;
     if (nb <= 1){
     return 1;
     }
