@@ -10,5 +10,5 @@ int ft_fibonacci(int index) {
 
 
 int main(){
-    printf("The element at index %d of the Fibonacci sequence is %d\n", 1, ft_fibonacci(1));
+    printf("The element at index %d of the Fibonacci sequence is %d\n", 0, ft_fibonacci(0));
 }
