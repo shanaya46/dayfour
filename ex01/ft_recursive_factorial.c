@@ -2,16 +2,15 @@
 #include <stdlib.h>
 
 int ft_recursive_factorial (int nb) {
-    if (nb <= 1){
-    return 1;
+    if (nb <= 1) {
+        return 1;
     }
-    else {
     return nb * ft_recursive_factorial(nb - 1);
-    }
 }
 
-int main(void) {
-    int num = 5;
+int main(int argc, char *argv[]) {
+ 
+    int num = atoi(argv[1]);
     printf ("Factorial: %d\n", ft_recursive_factorial(num));
 
     return 0;
